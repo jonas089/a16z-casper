@@ -113,16 +113,18 @@ pub extern "C" fn call() {
             EntryPointAccess::Public,
             EntryPointType::Contract,
         );
-        let simulateThirdParty = EntryPoint::new(
+        // Only relevant for testing.
+        /*let simulateThirdParty = EntryPoint::new(
             "simulateThirdParty",
             vec![Parameter::new("CONTRACT_HASH", CLType::Key)],
             CLType::Unit,
             EntryPointAccess::Public,
             EntryPointType::Session,
-        );
+        );*/
         entry_points.add_entry_point(getLicenseURI);
         entry_points.add_entry_point(getLicenseName);
-        entry_points.add_entry_point(simulateThirdParty);
+        // Only relevant for testing.
+        //entry_points.add_entry_point(simulateThirdParty);
         entry_points
     };
     let named_keys = {

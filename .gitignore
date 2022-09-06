@@ -1,2 +1,2 @@
-rust-toolchain
-contract/target
+.rust-toolchain/
+.contract/target/
