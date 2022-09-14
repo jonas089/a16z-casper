@@ -4,6 +4,6 @@ Rust version of a16z "can't be evil" [source](https://github.com/a16z/a16z-contr
 1. get license URI
 - takes "_licenseVersion"_ as argument \
 => _returns_ arweave URI of a license document
-3. get license Name
+2. get license Name
 - takes "_licenseVersion" as argument \
 => _returns_ name of a license document
