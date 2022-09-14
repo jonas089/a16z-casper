@@ -34,7 +34,7 @@ impl From<A16ZError> for ApiError {
 }
 
 const _BASE_LICENSE_URI: &str = "ar://_D9kN1WrNWbCq55BSAGRbTB4bS3v8QAPTYmBThSbX3A/";
-const CONTRACT_PACKAGE_HASH: &str = "a16z_contract_package_hash";
+const CONTRACT_PACKAGE_HASH: &str = "a16z-contract-hash";
 const CONTRACT_HASH_KEY_NAME: &str = "contract_hash";
 
 #[no_mangle]
