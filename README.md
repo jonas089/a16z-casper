@@ -9,3 +9,4 @@ Rust version of a16z "can't be evil" [source](https://github.com/a16z/a16z-contr
 2. get license Name
 - takes "_licenseVersion" as argument \
 => _returns_ name of a license document
+
